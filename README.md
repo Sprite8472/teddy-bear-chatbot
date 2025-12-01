@@ -16,12 +16,12 @@ who will role play as your character.There is also a third AI agent
 whose job is to do any Google searches that you need and returning
 the results. InMemorySessionService and InMemoryMemoryService is implemented.
 
-1st agent is writer_agent who also acts as runner. gemini-2.5-pro
+1st agent is writer_agent who also acts as runner. gemini-2.5-pro.
     actor_agent is agent as a tool.
-2nd agent is actor_agent. gemini-2.5-pro
+2nd agent is actor_agent. gemini-2.5-pro.
     Tools gives load_memory function.
     search_agent is agent as a tool.
-3rd agent is search_agent. gemini-2.5-flash
+3rd agent is search_agent. gemini-2.5-flash.
     Tools gives google_search functionality.
 HttpRetryOptions is implemented.
 
